@@ -1,0 +1,68 @@
+{
+  "clientes": [
+    {
+      "tipoCliente": "Natural",
+      "nombre": "Alice"
+    },
+    {
+      "tipoCliente": "CORPORATIVO",
+      "nombreEmpresa": "Apple",
+      "tamanoEmpresa": 3
+    },
+    {
+      "tipoCliente": "Natural",
+      "nombre": "Bob"
+    },
+    {
+      "tipoCliente": "CORPORATIVO",
+      "nombreEmpresa": "Boeing",
+      "tamanoEmpresa": 2
+    },
+    {
+      "tipoCliente": "Natural",
+      "nombre": "Johnatan"
+    }
+  ],
+  "tiquetes": [
+    {
+      "codigoRuta": "4558",
+      "fecha": "2024-11-05",
+      "codigoTiquete": "8769647",
+      "tarifa": 450000,
+      "usado": false,
+      "cliente": "Bob"
+    },
+    {
+      "codigoRuta": "4558",
+      "fecha": "2024-11-05",
+      "codigoTiquete": "8769648",
+      "tarifa": 450000,
+      "usado": true,
+      "cliente": "Alice"
+    },
+    {
+      "codigoRuta": "4558",
+      "fecha": "2024-11-06",
+      "codigoTiquete": "8769649",
+      "tarifa": 500000,
+      "usado": false,
+      "cliente": "Johnatan"
+    },
+    {
+      "codigoRuta": "4558",
+      "fecha": "2024-11-07",
+      "codigoTiquete": "8769650",
+      "tarifa": 600000,
+      "usado": false,
+      "cliente": "Apple"
+    },
+    {
+      "codigoRuta": "4558",
+      "fecha": "2024-11-08",
+      "codigoTiquete": "8769651",
+      "tarifa": 550000,
+      "usado": true,
+      "cliente": "Boeing"
+    }
+  ]
+}
